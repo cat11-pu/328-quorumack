@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "quorum": 2,
+  "write_error_code": "E_NO_WRITE",
+  "dup_error_code": "E_DUP_ACK",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "acks": [[1, []], [2, []], [3, []]], "ready": [], "water": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "ack", "write": 1, "replica": "a" },
+    { "id": 2, "kind": "ack", "write": 1, "replica": "b" },
+    { "id": 3, "kind": "ack", "write": 3, "replica": "a" },
+    { "id": 4, "kind": "ack", "write": 2, "replica": "a" },
+    { "id": 5, "kind": "ack", "write": 2, "replica": "b" }
+  ]
+}
